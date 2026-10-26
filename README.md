@@ -6,7 +6,7 @@ Official public Android APK releases for the Vedanta Yojana mobile app.
 Vedanta Yojana is open source and is distributed only through GitHub —
 it is not published on Google Play or any other app store.
 
-- **Latest release:** [v1.0.3 (versionCode 16)](https://github.com/slnwriteups/vedanta-yojana-releases/releases/latest)
+- **Latest release:** [v1.1.0 (versionCode 17)](https://github.com/slnwriteups/vedanta-yojana-releases/releases/latest)
 - **Source code:** [slnwriteups/vedanta-yojana-source](https://github.com/slnwriteups/vedanta-yojana-source) (MIT License for the software; see its `CONTENT-LICENSE.md` for the books and written content)
 - **Website:** [vedantayojana.org](https://vedantayojana.org)
 
@@ -44,14 +44,16 @@ Full guide: [APK Verification Guide](https://github.com/slnwriteups/vedanta-yoja
 
 ## Updates
 
-From v16 (1.0.3) on, content and app fixes arrive automatically as
-over-the-air updates — no reinstall needed. A new APK is published here
-only when a change can't be delivered that way.
+Content and app fixes arrive automatically as over-the-air updates — no
+reinstall needed. A new APK is published here only when a change can't be
+delivered that way, as with v17 (1.1.0), which moved the app to a new
+native engine. Updates are automatic again from v17 on.
 
 Upgrading an older install:
 
 | Installed version | What to do |
 |---|---|
-| v13 (1.0.0) | Install v16 over it; your data is kept. The app also shows an update notice. |
-| v10 (1.0.0) | No update notice appears. Download and install v16 from this page; it installs over v10 and keeps your data. |
-| v14 (1.0.1) or v15 (1.0.2) | These were debug-signed test builds published on the source repository, not here. Android will not install v16 over them: uninstall first (this removes local app data), then install v16. |
+| v16 (1.0.3) | Tap "Update available" at the top of Home, or install v17 from this page; it installs over v16 and keeps your data. |
+| v13 (1.0.0) | Install v17 over it; your data is kept. The app also shows an update notice. |
+| v10 (1.0.0) | No update notice appears. Download and install v17 from this page; it installs over v10 and keeps your data. |
+| v14 (1.0.1) or v15 (1.0.2) | These were debug-signed test builds published on the source repository, not here. Android will not install v17 over them: uninstall first (this removes local app data), then install v17. |
